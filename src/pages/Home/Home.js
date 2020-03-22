@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { Navbar } from "../../components/Navbar";
-import Footer from "../../components/Todo/Footer";
-import AddTodo from "../../components/Todo/AddTodo";
-import VisibleTodoList from "../../components/Todo/VisibleTodoList";
+import { Footer, AddTodo, VisibleTodoList } from "../../components/Todo";
 import styles from "./Home.module.css";
 
 const Home = () => {

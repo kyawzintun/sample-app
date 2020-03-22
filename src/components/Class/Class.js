@@ -19,7 +19,7 @@ const Class = ({ classItem }) => {
               <img
                 alt={classItem.tag_name}
                 className={styles.classImg}
-                src={require("../assets/jump.jpg")}
+                src={require("../../assets/jump.jpg")}
               />
             </span>
           </div>

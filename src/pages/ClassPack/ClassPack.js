@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
-import Class from "../../components/Class";
+import { Class } from "../../components/Class";
 import styles from "./ClassPack.module.css";
 
 import classJson from "./data.json";

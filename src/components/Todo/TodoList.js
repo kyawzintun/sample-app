@@ -5,7 +5,6 @@ import styles from "./Todo.module.css";
 
 const TodoList = ({ todos, toggleTodo, deleteTodo }) => {
   if (!todos.length) return false;
-  console.log(todos);
   return (
     <div className={styles.todoListWrapper}>
       <ul className={styles.todoList}>
