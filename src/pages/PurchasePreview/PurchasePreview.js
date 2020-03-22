@@ -52,7 +52,9 @@ const PurchasePreview = props => {
                 {selectedPack.total_credit > 1 && (
                   <div
                     className={`${styles.count} ${
-                      selectedPack.pack_type === "shareable" ? "shareClass" : ""
+                      selectedPack.pack_type === "shareable"
+                        ? styles.shareClass
+                        : ""
                     }`}
                   >
                     {selectedPack.total_credit}
@@ -127,9 +129,9 @@ const PurchasePreview = props => {
           </div>
           <div className={styles.mb20}>
             Please read all
-            <a className={styles.highlight} href="#">
+            <Link className={styles.highlight} to="/class">
               Terms & Conditions
-            </a>
+            </Link>
             before pruchasing your YM Class or Class Pack
           </div>
           <div className={`${styles.btnWrap} ${styles.mediumWidth}`}>

@@ -21,7 +21,7 @@ const Login = () => {
           <span className={styles.loginFormTitle}>Member Login</span>
           <div className={styles.wrapInput}>
             <input
-              type="email"
+              type="text"
               className={styles.formInput}
               name="email"
               placeholder="Email"

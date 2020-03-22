@@ -33,3 +33,13 @@
 .nav section h1 {
   font-size: 3rem;
 }
+
+@media (max-width: 480px) {
+  .nav section {
+    text-align: center;
+  }
+
+  .nav a {
+    padding: 0.5rem;
+  }
+}

@@ -45,7 +45,7 @@ const Class = ({ classItem }) => {
           {classItem.total_credit > 1 && (
             <div
               className={`${styles.count} ${styles.mb20} ${
-                classItem.pack_type === "shareable" ? "shareClass" : ""
+                classItem.pack_type === "shareable" ? styles.shareClass : ""
               }`}
             >
               {classItem.total_credit}

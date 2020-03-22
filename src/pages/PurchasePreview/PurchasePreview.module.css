@@ -1,5 +1,5 @@
 .main {
-  height: 100vh;
+  height: calc(100vh - 100px);
   background: #eee;
   margin: 0 auto;
   padding: 0;
@@ -139,6 +139,7 @@
 
 .highlight {
   color: #789497;
+  margin: 0 5px;
 }
 
 .btnWrap {

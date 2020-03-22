@@ -41,7 +41,7 @@ const Order = () => {
                     <div
                       className={`${styles.count} ${
                         selectedPack.pack_type === "shareable"
-                          ? "shareClass"
+                          ? styles.shareClass
                           : ""
                       }`}
                     >

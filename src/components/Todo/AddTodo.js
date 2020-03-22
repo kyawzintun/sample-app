@@ -20,7 +20,7 @@ const AddTodo = ({ dispatch }) => {
     <div>
       <form onSubmit={handleOnSubmit} className={styles.todoForm}>
         <input ref={node => (input = node)} placeholder="Add to do" />
-        <button type="submit">Add Todo</button>
+        <button type="submit">Add</button>
       </form>
     </div>
   );
