@@ -1,0 +1,60 @@
+.todoListWrapper {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.todoList {
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+.todoItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.disableTxt {
+  opacity: 0.3;
+}
+
+.childWrap {
+  display: flex;
+}
+
+.deleteBtn {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+/* add todo form */
+.todoForm {
+  max-width: 80%;
+  margin: 0 auto 20px;
+}
+
+.todoForm input,
+.todoForm button {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #495057;
+  padding: 0.375rem 0.75rem;
+}
+
+.todoForm input {
+  width: 60%;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-right: 0px;
+}
+
+.todoForm button {
+  width: 30%;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  background: skyblue;
+}

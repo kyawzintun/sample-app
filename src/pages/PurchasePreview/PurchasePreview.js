@@ -5,7 +5,7 @@ import { Navbar } from "../../components/Navbar";
 import { calcSubtotal, calcPercentage, filterClass } from "../../utils";
 import styles from "./PurchasePreview.module.css";
 
-import classJson from "../Home/data.json";
+import classJson from "../ClassPack/data.json";
 
 const PurchasePreview = props => {
   const selectedClassId = props.match.params.id;
@@ -133,7 +133,7 @@ const PurchasePreview = props => {
             before pruchasing your YM Class or Class Pack
           </div>
           <div className={`${styles.btnWrap} ${styles.mediumWidth}`}>
-            <Link to="/home" className={styles.backBtn}>
+            <Link to="/class" className={styles.backBtn}>
               <img
                 alt="back button"
                 src={require("../../assets/back-btn.png")}
