@@ -1,0 +1,165 @@
+.cardsItem {
+  display: flex;
+}
+
+@media (max-width: 39rem) {
+  .cardsItem {
+    width: 80%;
+  }
+}
+
+@media (min-width: 40rem) {
+  .cardsItem {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cardsItem {
+    width: 33.33%;
+  }
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 10px;
+  width: 100%;
+}
+
+.cardHead {
+  position: relative;
+}
+
+.tagName {
+  background: #000;
+  color: #fff;
+  padding: 5px 10px;
+  max-width: 120px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.classImg {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  width: 100px;
+  height: 100px;
+}
+
+.cardContent {
+  padding: 1rem;
+  text-align: center;
+}
+
+.cardTitle {
+  color: #53939a;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.count {
+  margin: 0 auto;
+}
+
+.count {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #53939a;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: 0 0 0 1px #53939a;
+  border: 1px solid #fff;
+}
+
+.singleClass {
+  background: #8dbfc5;
+}
+
+.shareClass {
+  background: #1e455f;
+}
+
+.unlimitedClass {
+  background: linear-gradient(45deg, #8dbfc5, #1e455f);
+}
+
+.cardInfo {
+  cursor: pointer;
+  width: 100%;
+  color: #000;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+  border: 1px solid #fff;
+}
+
+.cardInfo:hover {
+  border: 1px solid #53939a;
+}
+
+.classDesc p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.cardText {
+  padding: 0 25px;
+}
+
+.totalPrice {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.triangle {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.option,
+.option img {
+  width: 100%;
+  height: 100%;
+}
+
+.option {
+  overflow: hidden;
+  position: absolute;
+  transform: skewX(55.98deg);
+}
+
+.option {
+  top: -10px;
+  right: -10px;
+  transform-origin: 0 0;
+}
+
+.option img,
+.option:after {
+  transform: skewX(-55.98deg);
+  transform-origin: inherit;
+}
+
+.mb20 {
+  margin-bottom: 20px !important;
+}
+
+.mb40 {
+  margin-bottom: 40px !important;
+}

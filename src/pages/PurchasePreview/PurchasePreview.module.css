@@ -1,0 +1,203 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: #eee;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 22px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #8cb5f8;
+}
+
+.classInfo {
+  display: flex;
+  align-items: center;
+}
+
+.count {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.count {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #53939a;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: 0 0 0 1px #53939a;
+  border: 1px solid #fff;
+}
+
+.unlimitedClass {
+  background: linear-gradient(45deg, #8dbfc5, #1e455f);
+}
+
+.singleClass {
+  background: #8dbfc5;
+}
+
+.shareClass {
+  background: #1e455f;
+}
+
+.pack p {
+  margin: 0;
+}
+
+.pack p:first-child {
+  font-weight: 700;
+  color: #789497;
+  margin-bottom: 10px;
+}
+
+.pack p:last-child {
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.price {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.perMonth {
+  font-weight: 100;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.promoCodeWrap {
+  position: relative;
+}
+
+.promoCodeInput {
+  font-size: 15px;
+  color: #555;
+  border-radius: 0;
+  border: 1px solid #ddd;
+  line-height: 1;
+  height: 40px;
+  width: 250px;
+  background: 0 0;
+  padding: 0 5px;
+  font-weight: bold;
+  background-color: #f9f9f9;
+}
+
+.checkCircle {
+  position: absolute;
+  left: 210px;
+  top: 11px;
+  width: 18px;
+  height: 18px;
+}
+
+.applyBtn {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  background: #00c3cf;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  border-bottom: 1px solid #ddd;
+}
+
+.priceInfo div {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.price {
+  margin-left: auto;
+}
+
+.total {
+  color: #789497;
+  font-weight: 700;
+}
+
+.highlight {
+  color: #789497;
+}
+
+.btnWrap {
+  display: flex;
+  align-items: center;
+}
+
+.backBtn {
+  height: 100%;
+  display: inherit;
+}
+
+img {
+  margin-right: 5px;
+}
+
+.backBtn:active,
+.backBtn:focus {
+  color: #000;
+}
+
+.payBtn {
+  margin-left: auto;
+  height: 40px;
+  width: 250px;
+  background: #00c3cf;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.mediumWidth {
+  width: 70%;
+}
+
+.mb20 {
+  margin-bottom: 20px !important;
+}
+
+@media (max-width: 800px) {
+  .mediumWidth {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .promoCodeInput {
+    width: 150px !important;
+  }
+
+  .checkCircle {
+    left: 120px !important;
+  }
+
+  .applyBtn {
+    width: 70px !important;
+  }
+}

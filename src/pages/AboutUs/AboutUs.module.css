@@ -1,0 +1,16 @@
+.main {
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 25px;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.main p {
+  line-height: 1.6;
+}
