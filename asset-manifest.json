@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sample-app/static/css/main.48ae644a.chunk.css",
+    "main.js": "/sample-app/static/js/main.23f81f61.chunk.js",
+    "main.js.map": "/sample-app/static/js/main.23f81f61.chunk.js.map",
+    "runtime-main.js": "/sample-app/static/js/runtime-main.32b80380.js",
+    "runtime-main.js.map": "/sample-app/static/js/runtime-main.32b80380.js.map",
+    "static/js/2.4351b205.chunk.js": "/sample-app/static/js/2.4351b205.chunk.js",
+    "static/js/2.4351b205.chunk.js.map": "/sample-app/static/js/2.4351b205.chunk.js.map",
+    "index.html": "/sample-app/index.html",
+    "precache-manifest.193d7a003125219897c46a7bbdd86ae7.js": "/sample-app/precache-manifest.193d7a003125219897c46a7bbdd86ae7.js",
+    "service-worker.js": "/sample-app/service-worker.js",
+    "static/css/main.48ae644a.chunk.css.map": "/sample-app/static/css/main.48ae644a.chunk.css.map",
+    "static/js/2.4351b205.chunk.js.LICENSE.txt": "/sample-app/static/js/2.4351b205.chunk.js.LICENSE.txt",
+    "static/media/check-circle.svg": "/sample-app/static/media/check-circle.38e17ea0.svg",
+    "static/media/delete.svg": "/sample-app/static/media/delete.8b8b8ce5.svg",
+    "static/media/jump.jpg": "/sample-app/static/media/jump.e56214d1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32b80380.js",
+    "static/js/2.4351b205.chunk.js",
+    "static/css/main.48ae644a.chunk.css",
+    "static/js/main.23f81f61.chunk.js"
+  ]
+}
